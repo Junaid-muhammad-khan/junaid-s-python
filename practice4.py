@@ -78,7 +78,51 @@ for iinn in range(100 , 0 , -1):
 
 # print a multiplication table
 
+"""
 n = int(input("enter a number: "))
 
 for i in range(1 , 11):
     print(n*i)
+
+n=int(input("num "))
+for i in range(n,n*11,n):
+    print(i)
+"""
+
+# WAP to find the sum of natural numbers
+"""
+n = 10
+sum = 0
+
+for i in range(1 ,n+1):
+    sum += i
+print("total sum =",sum)
+
+n0 = 1
+sum0 = 0
+
+while n0 <= 10:
+    sum0 += n0
+    n0 += 1
+ 
+print("total sum =",sum0)
+
+"""
+
+# WAP to find the factorial of first natural numbers
+
+n = 5
+fact = 1
+i = 1
+while i <= n:
+    fact *= i
+    i += 1
+ 
+print("factorial =",fact)
+
+n0 = 5
+fact0 = 1
+for io in range( 1 , n0+1):
+    fact0 *= io
+
+print("factorial =", fact0)
