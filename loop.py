@@ -142,3 +142,20 @@ for x in [0, 1, 2]:
 
 for me in range(1,100,2):
    print(me)
+
+count0 = 1
+
+# This code mean: im junaid will print untill count is lessthen or equal to 10
+while count0 <= 10:
+  print(count0 ,"imjunaid")
+  count0 += 1 # this mean count will increase by 1 always after it is running
+
+h = 5
+while h >= 1:
+   print(h)
+   h -= 1
+
+l = 10
+while l < 11:
+  print( l ,"jk")
+  l -= 1
