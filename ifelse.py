@@ -94,4 +94,15 @@ if number1%2 == 0 and number1 != 0: # with this and statment we just update our 
 alm = 9
 print("yes" if alm%2 ==0 else "no")
 
+grades = float(input("Enter Your Marks: "))
 
+if grades >= 90:
+    print("You got grade A")
+elif grades >= 80 and grades <=90:
+    print("You got grade B")
+elif grades >= 70 and grades <=80:
+    print("You got grade C")
+elif grades >= 60 and grades <=70:
+    print("You got grade D")
+else:
+    print("You are fail")
