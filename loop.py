@@ -190,3 +190,16 @@ while i < 10:
       break
    print(i)
    i += 1   
+
+sports = ["Cricket" , "Baseball" , "tenis" , "football"]
+
+for value in sports:
+   print(value)
+
+atup = (4 ,7 , 8 , 9 ,1 ,3 , 4 ,1, 0 , 7, 5)
+o = int(input("enter a value: "))
+idx = 0
+for value in atup:
+  if (value == o):
+      print( o , "found at index", idx)
+  idx += 1

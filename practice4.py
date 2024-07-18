@@ -64,3 +64,21 @@ while num < len(tup):
         print("found at index", num)
     num += 1
 """ 
+# using for and range
+
+# print numbers 1 to 100
+
+"""for i in range(100):
+    print(i)
+"""
+#print number 100 to 1
+"""
+for iinn in range(100 , 0 , -1):
+    print(iinn)"""
+
+# print a multiplication table
+
+n = int(input("enter a number: "))
+
+for i in range(1 , 11):
+    print(n*i)
