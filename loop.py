@@ -155,7 +155,38 @@ while h >= 1:
    print(h)
    h -= 1
 
+# Infinite loop
+
+"""
 l = 10
 while l < 11:
   print( l ,"jk")
   l -= 1
+"""
+
+# printing odd numbers
+
+i = 1
+while i <= 50:
+   if (i%2 == 0):
+      i += 1
+      continue
+   print(i)
+   i += 1
+
+# printing even numbers
+
+i = 1
+while i <= 50:
+   if (i%2 == 1):
+      i += 1
+      continue
+   print(i)
+   i += 1
+
+i = 1
+while i < 10:
+   if(i == 4):
+      break
+   print(i)
+   i += 1   
