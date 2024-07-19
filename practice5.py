@@ -45,7 +45,7 @@ single_line(numbers)
 
 """
 # 2nd
-
+"""
 numbers = [2,3,4,5,6,2,3,4,51,62,78]
 
 def single_line2(list):
@@ -53,4 +53,6 @@ def single_line2(list):
         print(items, end=" ")
 
 single_line2(numbers)
+
+"""
 
