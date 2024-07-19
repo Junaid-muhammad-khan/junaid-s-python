@@ -56,3 +56,101 @@ single_line2(numbers)
 
 """
 
+# WAF to calculate factorial of n.(n is the parameter)
+"""
+def calc_fact(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+        i += 1
+    return fact
+    
+print(calc_fact(10))
+
+"""
+#again
+"""
+def factorail(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+        i +=1 
+    return fact
+
+print(factorail(5))
+
+"""
+# again
+"""
+def factorail(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+        i += 1
+    return fact
+
+print(factorail(10))
+print(factorail(5))
+
+"""
+
+# again
+"""
+def factorail(n):
+    fact = 1
+    for i in range(1 , n+1):
+        fact *= i
+        i += 1
+    return fact
+
+print(factorail(5))
+
+"""
+
+# again
+# with while loop
+"""
+def factorail(n):
+    fact = 1
+    val = 1
+    while val <= n:
+        fact *= val
+        val += 1
+    return fact
+
+print(factorail(5))
+"""
+
+# again
+"""
+def factorial(n):
+    fact = 1
+    val = 1         #itenator
+    while val <= n:
+        fact *= val
+        val += 1
+    return fact
+
+print(factorial(10))
+"""
+
+# WAF to convert USD to PKR
+"""
+def converter(usd_val):
+    pkr_val = usd_val*278
+    print(usd_val,"USD =",pkr_val, "PKR")
+
+converter(1)
+"""
+
+# WAF to take a input of a number and define it wheather it is a even or odd
+"""
+number = int(input("Enter a number: "))
+def even(number):
+    if (number%2 == 0):
+        print("even")
+    else:
+        print("odd")
+
+even(number)
+"""
