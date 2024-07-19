@@ -101,6 +101,7 @@ def add_int(numbers):
 g = add_int([5,4,13,2])
 print(g)
 
+"""
 age = int(input("Enter your age "))
 
 if age == 0:
@@ -115,4 +116,10 @@ elif age < 70:
       print("relaxing")
 else:
       print("dead") 
+"""
 
+def calc_sum(a , b):
+   sum = a + b
+   print(sum)
+
+calc_sum(3,2)
