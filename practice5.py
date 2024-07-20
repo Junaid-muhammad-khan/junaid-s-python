@@ -154,3 +154,38 @@ def even(number):
 
 even(number)
 """
+
+# write a recursive function to calculate the sum of first n natural numbers
+"""
+def sum_nat(n):
+    if n == 0:
+        return 0
+    return sum_nat(n-1) + n
+
+print(sum_nat(5))
+"""
+
+# Write a recursive function to print all elemnt in a list
+# hint : use list & index as a parameter
+"""
+a = [1,2,3,4,5,6,7,8]
+
+def print_list(list,idx=0):
+    if idx == len(list):
+        return
+    print(list[idx])
+    print_list(list,idx+1)
+
+print_list(a)
+"""
+
+# write a program of febonaachi series
+
+def febonachi(n):
+    if n==0:
+        return 0
+    elif n== 1:
+        return 1 
+    return febonachi(n-1) + febonachi(n-2)
+    
+print(febonachi(10))
