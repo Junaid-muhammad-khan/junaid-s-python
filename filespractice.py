@@ -48,7 +48,7 @@ Mom = {
 #f.close()
 
 # !!!!!! NEED TO SOLVE THIS ERROR
-
+"""
 f = open("demofile2.txt", "a")
 f.write("Now the file has more content!")
 f.close()
@@ -56,7 +56,7 @@ f.close()
 #open and read the file after the appending:
 f = open("demofile2.txt", "r")
 print(f.read())
-
+"""
 """
 #w = open("demofile.txt", "w")
 #w.write("Now the file has more content!")
@@ -68,9 +68,18 @@ print(f.read())
 #os.remove("demofile.txt")
 
 """
+"""
 import os
 if os.path.exists("demofile.txt"):
   os.remove("demofile.txt")
 else:
   print("The file does not exist")
 
+"""
+
+append = open("demofile.txt","a")
+
+append.write("\n lmao")
+
+append.read()
+append.close()
