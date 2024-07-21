@@ -179,13 +179,14 @@ def print_list(list,idx=0):
 print_list(a)
 """
 
-# write a program of febonaachi series
-
-def febonachi(n):
+# write a program of Fibonacci series
+'''
+def Fibonacci(n):
     if n==0:
         return 0
     elif n== 1:
         return 1 
-    return febonachi(n-1) + febonachi(n-2)
+    return Fibonacci(n-1) + Fibonacci(n-2)
     
-print(febonachi(10))
+print(Fibonacci(10))
+'''
