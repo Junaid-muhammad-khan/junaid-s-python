@@ -1,0 +1,9 @@
+("press to select item","item ","price"),
+("1","Chicken biryani",300),
+("2","Tikka",250),
+("3","Nihari",300),
+("4","Karahi",550),
+("5","Handi",330),
+("6","Naan",25),
+("7","Paratha",30),
+("8","Juice",120)
