@@ -23,13 +23,13 @@ class Resturant:
     def __init__(self):
         self.menu = {
             "1" : {"name":"Chicken biryani" , "price" : 300},
-            "2" : {"name":"tikka" , "price" : 250},
+            "2" : {"name":"Tikka" , "price" : 250},
             "3" : {"name":"Nihari" , "price" : 330},
             "4" : {"name":"Karahi" , "price" : 550},
             "5" : {"name":"Handi" , "price" : 330},
-            "6" : {"name":"naan" , "price" : 25},
-            "7" : {"name":"paratha" , "price" : 30},
-            "8" : {"name":"juice" , "price" : 120}
+            "6" : {"name":"Naan" , "price" : 25},
+            "7" : {"name":"Paratha" , "price" : 30},
+            "8" : {"name":"Juice" , "price" : 120}
                     }
         
     def cus_input(self):
@@ -44,7 +44,7 @@ class Resturant:
             else:
                 print("Invalid")
             
-        print(f"total sum of the dish: {total}")
+        print(f"total sum of the dishes: {total}")
 
         amount = float(total)
         payment = float(input("Amount paid by customer: "))
