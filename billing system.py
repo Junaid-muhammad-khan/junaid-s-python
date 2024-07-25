@@ -51,11 +51,34 @@ class Resturant:
 
         if payment >= amount:
             change = payment - amount
-            if change == 0:
+            print(f"The change for customer is: {change}")
+            print("Thank you for ordering! Your food will be ready shortly.")
+
+        elif payment < amount:
+                remaining = amount - payment # value store in remaining
+                print(f"remaining amount is: {remaining}")
+                remainingpay = float(input("pay the ramaing amount: "))
+
+                while remaining != 0:
+                    remaining = remaining - remainingpay  # Update remaining amount
+        
+                    if remaining > 0:
+                        print(f"Remaining amount is: {remaining}")
+                        remainingpay = float(input("Pay the remaining amount: "))
+                    
+                    elif remaining < amount:
+                         change = (-1) * remaining
+                         print(f"Here you go your change {change}")
+                         print(f"Thank you for ordering! Your food will be ready shortly.")
+                         break
+                    else:
+                        print("Thank you for ordering! Your food will be ready shortly.")
+                        break
+
+        elif change == 0:
                 return 0
-            else:
-                print(f"The change for customer is: {change}")
-                print("Thank you for ordering! Your food will be ready shortly.")
+        else:
+            print("Thank you for ordering! Your food will be ready shortly.")
 
 
 
